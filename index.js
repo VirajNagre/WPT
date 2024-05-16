@@ -7,7 +7,10 @@ app.get("/",(req,res)=>{
     res.send("ok");
 })
 
+
 app.get("/shantanu",(req,res) =>{
     res.send("shantanu")
-    })
+})
+
+
 app.listen(5000,()=>{console.log("server running")});
